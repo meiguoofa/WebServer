@@ -1,0 +1,1 @@
+ g++ ./DBConnection/CDBCUtils.cpp main.cpp server.cpp  ./timer/timer.cpp http_conn.cpp   -o dbServer -lpthread -lmysqlclient
